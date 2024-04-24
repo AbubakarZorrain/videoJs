@@ -16,7 +16,6 @@ export const VideoJS = (props) => {
       videoRef.current.appendChild(videoElement);
 
       const player = playerRef.current = videojs(videoElement, options, () => {
-         videojs.log('player is ready');
          const controlBar = player.controlBar;
          let forwardButton = controlBar.addChild('button', {}, 1);
          var forwardButtonDom = forwardButton.el();

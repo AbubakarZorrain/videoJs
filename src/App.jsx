@@ -12,8 +12,8 @@ const App = () => {
     // techOrder: ['youtube'],
     // youtube: { "ytControls": 2 } ,
     sources: [{
-      src: 'https://www.youtube.com/watch?v=8eOVNMloy9E',
-      type: 'video'
+      src: '/video.mp4',
+      type: 'video/mp4'
     }],
     userActions: {
       doubleClick: false,

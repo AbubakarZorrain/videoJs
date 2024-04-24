@@ -9,8 +9,7 @@ const App = () => {
     controls: true,
     responsive: true,
     fluid: true,
-    // techOrder: ['youtube'],
-    // youtube: { "ytControls": 2 } ,
+    preload: true,
     sources: [{
       src: '/video.mp4',
       type: 'video/mp4'
